@@ -1,0 +1,20 @@
+{
+    "name": "kaizerenrique/consultabcv",
+    "description": "Returns el valor del USD del BCV",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kaizerenrique\\Consultabcv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kaizerenrique",
+            "email": "kayserenrique@gmail.com"
+        }
+    ]
+}
