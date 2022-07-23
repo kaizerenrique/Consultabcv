@@ -8,7 +8,7 @@ Este paquete desarrollado en PHP realiza una consulta del valor del USD publicad
 
 ### Instalación 
 ```php
-composer require kaizerenrique
+composer require kaizerenrique/consultabcv
 ```
 ### :scroll: Ejemplos 
 
