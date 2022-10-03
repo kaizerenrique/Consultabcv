@@ -17,7 +17,10 @@ class Consultabcv{
 	    try {
 	    	$url = 'http://bcv.org.ve/';
 
-	    	$response = Http::get($url);
+	    	$response = Http::withOptions([
+				'verify' => false,
+			])->get($url);
+			
 	    	$respuesta = $response->getBody()->getContents();// accedemos a el contenido
 			$text = strip_tags($respuesta); //limpiamos
 
