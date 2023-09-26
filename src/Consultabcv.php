@@ -31,7 +31,7 @@ class Consultabcv{
 
 		    $r = trim(str_replace($rempl, '|', self::limpiarCampo($text)));
 		    $resource = explode("|", $r);
-		    $datos = explode(" ", self::limpiarCampo($resource[4])); 
+		    $datos = explode(" ", self::limpiarCampo($resource[2])); 
 
 		    $usd = $datos[0]; //obtenemos el valor del USD
 		    $num=str_replace(',','.',$usd); //reemplazamos la coma por un punto
